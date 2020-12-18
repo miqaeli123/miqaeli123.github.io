@@ -1,0 +1,71 @@
+body{
+  background-image: url(../image/RTM19-banner-web.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #212226;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover{
+    color: #f4c613;
+  }
+  
+  
+  .navbar {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+.signup{
+    background: rgba(0,0,0,0.3);
+   margin-top: 100px;
+   margin-left: 330px;
+   height: 350px;
+   padding-top: 10px;
+   border-radius: 15px;
+}
+
+.form-group [type="submit"]{
+    display: block;
+    margin: auto;
+    background: #f4c613;
+    border-radius: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    color: #fff;
+}
+
+.form-group [type="submit"]:hover{
+    text-decoration: none;
+    background-color: #212226;
+    color: #f4c613;
+    transition: 400ms;
+}
+
+.form-group input{
+    display: block;
+    margin: auto;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 240px;
+    outline: none;
+}
+
+.form-group input::placeholder{
+    color: #fff;
+}
+
+.text p a{
+    color: #fff;
+}
+
+.text p a:hover{
+    color: #f4c613;
+    text-decoration: none;
+    transition: 300ms;
+}

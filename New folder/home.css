@@ -1,0 +1,12 @@
+.navbar-light .navbar-nav .nav-link{
+    color: #212226;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover{
+    color: #f4c613;
+  }
+  
+  
+  .navbar {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
